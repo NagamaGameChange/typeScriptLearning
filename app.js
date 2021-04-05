@@ -1,14 +1,12 @@
-function add(n1, n2, showResult, phrase) {
-    var result = n1 + n2;
-    if (showResult) {
-        console.log(phrase + result);
-    }
-    else {
-        return n1 + n2;
-    }
+var person = {
+    name: 'Nagama',
+    age: 30,
+    hobbies: ['sports', 'cooking']
+};
+var favouriteActivities;
+favouriteActivities = ['sports'];
+console.log(person.name);
+for (var _i = 0, _a = person.hobbies; _i < _a.length; _i++) {
+    var hobby = _a[_i];
+    console.log(hobby);
 }
-var number1 = 5;
-var number2 = 2.8;
-var printResult = true;
-var resultPhrase = 'Result is ';
-add(number1, number2, printResult, resultPhrase);
